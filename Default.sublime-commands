@@ -2,11 +2,11 @@
     {
         "caption": "Switch Theme: Light",
         "command": "switch_theme",
-        "args": {"theme": "Light"}
+        "args": {"theme_name": "Light"}
     },
     {
         "caption": "Switch Theme: Dark",
         "command": "switch_theme",
-        "args": {"theme": "Dark"}
+        "args": {"theme_name": "Dark"}
     }
 ]

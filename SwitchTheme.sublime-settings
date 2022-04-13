@@ -1,4 +1,15 @@
 {
 	// WARN: currently ignored
-	"switch_theme_enabled": true
+	"switch_theme_enabled": true,
+
+	"themes": {
+		"Light": {
+			"theme": "Default.sublime-theme",
+			"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow.tmTheme"
+		},
+		"Dark": {
+			"theme": "Default Dark.sublime-theme",
+			"color_scheme": "Tomorrow Night.sublime-color-scheme"
+		}
+	}
 }
