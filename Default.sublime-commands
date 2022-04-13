@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Switch Theme: Light",
+        "command": "switch_theme",
+        "args": {"theme": "Light"}
+    },
+    {
+        "caption": "Switch Theme: Dark",
+        "command": "switch_theme",
+        "args": {"theme": "Dark"}
+    }
+]
