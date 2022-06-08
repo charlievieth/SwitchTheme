@@ -15,7 +15,7 @@ THEMES = {
 
 
 class SwitchThemeCommand(sublime_plugin.ApplicationCommand):
-    def run(self, theme_name="Light", light=None, dark=None) -> None:
+    def run(self, theme_name: str = "Light") -> None:
         # FIXME: going from Dark to Light sometimes fails to change the Theme
         # themes = sublime.load_settings("SwitchTheme.sublime-settings").get("themes")
 
